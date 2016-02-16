@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98F3406B1C73C84700E72D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3406A1C73C84700E72D14 /* AppDelegate.swift */; };
+		98F3406D1C73C84700E72D14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3406C1C73C84700E72D14 /* ViewController.swift */; };
+		98F340701C73C84700E72D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F3406E1C73C84700E72D14 /* Main.storyboard */; };
+		98F340731C73C84700E72D14 /* FlashlightApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98F340711C73C84700E72D14 /* FlashlightApp.xcdatamodeld */; };
+		98F340751C73C84700E72D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F340741C73C84700E72D14 /* Assets.xcassets */; };
+		98F340781C73C84700E72D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F340761C73C84700E72D14 /* LaunchScreen.storyboard */; };
+		98F340831C73C84700E72D14 /* FlashlightAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F340821C73C84700E72D14 /* FlashlightAppTests.swift */; };
+		98F3408E1C73C84700E72D14 /* FlashlightAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3408D1C73C84700E72D14 /* FlashlightAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F3407F1C73C84700E72D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F3405F1C73C84700E72D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F340661C73C84700E72D14;
+			remoteInfo = FlashlightApp;
+		};
+		98F3408A1C73C84700E72D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F3405F1C73C84700E72D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F340661C73C84700E72D14;
+			remoteInfo = FlashlightApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98F340671C73C84700E72D14 /* FlashlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3406A1C73C84700E72D14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98F3406C1C73C84700E72D14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98F3406F1C73C84700E72D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98F340721C73C84700E72D14 /* FlashlightApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashlightApp.xcdatamodel; sourceTree = "<group>"; };
+		98F340741C73C84700E72D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F340771C73C84700E72D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98F340791C73C84700E72D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F3407E1C73C84700E72D14 /* FlashlightAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F340821C73C84700E72D14 /* FlashlightAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightAppTests.swift; sourceTree = "<group>"; };
+		98F340841C73C84700E72D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F340891C73C84700E72D14 /* FlashlightAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3408D1C73C84700E72D14 /* FlashlightAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightAppUITests.swift; sourceTree = "<group>"; };
+		98F3408F1C73C84700E72D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F340641C73C84700E72D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3407B1C73C84700E72D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F340861C73C84700E72D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98F3405E1C73C84700E72D14 = {
+			isa = PBXGroup;
+			children = (
+				98F340691C73C84700E72D14 /* FlashlightApp */,
+				98F340811C73C84700E72D14 /* FlashlightAppTests */,
+				98F3408C1C73C84700E72D14 /* FlashlightAppUITests */,
+				98F340681C73C84700E72D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F340681C73C84700E72D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F340671C73C84700E72D14 /* FlashlightApp.app */,
+				98F3407E1C73C84700E72D14 /* FlashlightAppTests.xctest */,
+				98F340891C73C84700E72D14 /* FlashlightAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F340691C73C84700E72D14 /* FlashlightApp */ = {
+			isa = PBXGroup;
+			children = (
+				98F3406A1C73C84700E72D14 /* AppDelegate.swift */,
+				98F3406C1C73C84700E72D14 /* ViewController.swift */,
+				98F3406E1C73C84700E72D14 /* Main.storyboard */,
+				98F340741C73C84700E72D14 /* Assets.xcassets */,
+				98F340761C73C84700E72D14 /* LaunchScreen.storyboard */,
+				98F340791C73C84700E72D14 /* Info.plist */,
+				98F340711C73C84700E72D14 /* FlashlightApp.xcdatamodeld */,
+			);
+			path = FlashlightApp;
+			sourceTree = "<group>";
+		};
+		98F340811C73C84700E72D14 /* FlashlightAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				98F340821C73C84700E72D14 /* FlashlightAppTests.swift */,
+				98F340841C73C84700E72D14 /* Info.plist */,
+			);
+			path = FlashlightAppTests;
+			sourceTree = "<group>";
+		};
+		98F3408C1C73C84700E72D14 /* FlashlightAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F3408D1C73C84700E72D14 /* FlashlightAppUITests.swift */,
+				98F3408F1C73C84700E72D14 /* Info.plist */,
+			);
+			path = FlashlightAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F340661C73C84700E72D14 /* FlashlightApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F340921C73C84700E72D14 /* Build configuration list for PBXNativeTarget "FlashlightApp" */;
+			buildPhases = (
+				98F340631C73C84700E72D14 /* Sources */,
+				98F340641C73C84700E72D14 /* Frameworks */,
+				98F340651C73C84700E72D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashlightApp;
+			productName = FlashlightApp;
+			productReference = 98F340671C73C84700E72D14 /* FlashlightApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98F3407D1C73C84700E72D14 /* FlashlightAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F340951C73C84700E72D14 /* Build configuration list for PBXNativeTarget "FlashlightAppTests" */;
+			buildPhases = (
+				98F3407A1C73C84700E72D14 /* Sources */,
+				98F3407B1C73C84700E72D14 /* Frameworks */,
+				98F3407C1C73C84700E72D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F340801C73C84700E72D14 /* PBXTargetDependency */,
+			);
+			name = FlashlightAppTests;
+			productName = FlashlightAppTests;
+			productReference = 98F3407E1C73C84700E72D14 /* FlashlightAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98F340881C73C84700E72D14 /* FlashlightAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F340981C73C84700E72D14 /* Build configuration list for PBXNativeTarget "FlashlightAppUITests" */;
+			buildPhases = (
+				98F340851C73C84700E72D14 /* Sources */,
+				98F340861C73C84700E72D14 /* Frameworks */,
+				98F340871C73C84700E72D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F3408B1C73C84700E72D14 /* PBXTargetDependency */,
+			);
+			name = FlashlightAppUITests;
+			productName = FlashlightAppUITests;
+			productReference = 98F340891C73C84700E72D14 /* FlashlightAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F3405F1C73C84700E72D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jessica  Cherny";
+				TargetAttributes = {
+					98F340661C73C84700E72D14 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					98F3407D1C73C84700E72D14 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 98F340661C73C84700E72D14;
+					};
+					98F340881C73C84700E72D14 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 98F340661C73C84700E72D14;
+					};
+				};
+			};
+			buildConfigurationList = 98F340621C73C84700E72D14 /* Build configuration list for PBXProject "FlashlightApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98F3405E1C73C84700E72D14;
+			productRefGroup = 98F340681C73C84700E72D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F340661C73C84700E72D14 /* FlashlightApp */,
+				98F3407D1C73C84700E72D14 /* FlashlightAppTests */,
+				98F340881C73C84700E72D14 /* FlashlightAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F340651C73C84700E72D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F340781C73C84700E72D14 /* LaunchScreen.storyboard in Resources */,
+				98F340751C73C84700E72D14 /* Assets.xcassets in Resources */,
+				98F340701C73C84700E72D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3407C1C73C84700E72D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F340871C73C84700E72D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F340631C73C84700E72D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F3406D1C73C84700E72D14 /* ViewController.swift in Sources */,
+				98F3406B1C73C84700E72D14 /* AppDelegate.swift in Sources */,
+				98F340731C73C84700E72D14 /* FlashlightApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3407A1C73C84700E72D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F340831C73C84700E72D14 /* FlashlightAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F340851C73C84700E72D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F3408E1C73C84700E72D14 /* FlashlightAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98F340801C73C84700E72D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F340661C73C84700E72D14 /* FlashlightApp */;
+			targetProxy = 98F3407F1C73C84700E72D14 /* PBXContainerItemProxy */;
+		};
+		98F3408B1C73C84700E72D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F340661C73C84700E72D14 /* FlashlightApp */;
+			targetProxy = 98F3408A1C73C84700E72D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98F3406E1C73C84700E72D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F3406F1C73C84700E72D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98F340761C73C84700E72D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F340771C73C84700E72D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98F340901C73C84700E72D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98F340911C73C84700E72D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F340931C73C84700E72D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashlightApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcherny.FlashlightApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98F340941C73C84700E72D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashlightApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcherny.FlashlightApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98F340961C73C84700E72D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashlightAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcherny.FlashlightAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashlightApp.app/FlashlightApp";
+			};
+			name = Debug;
+		};
+		98F340971C73C84700E72D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashlightAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcherny.FlashlightAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashlightApp.app/FlashlightApp";
+			};
+			name = Release;
+		};
+		98F340991C73C84700E72D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlashlightAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcherny.FlashlightAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlashlightApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		98F3409A1C73C84700E72D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlashlightAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcherny.FlashlightAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlashlightApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F340621C73C84700E72D14 /* Build configuration list for PBXProject "FlashlightApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F340901C73C84700E72D14 /* Debug */,
+				98F340911C73C84700E72D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F340921C73C84700E72D14 /* Build configuration list for PBXNativeTarget "FlashlightApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F340931C73C84700E72D14 /* Debug */,
+				98F340941C73C84700E72D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98F340951C73C84700E72D14 /* Build configuration list for PBXNativeTarget "FlashlightAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F340961C73C84700E72D14 /* Debug */,
+				98F340971C73C84700E72D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98F340981C73C84700E72D14 /* Build configuration list for PBXNativeTarget "FlashlightAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F340991C73C84700E72D14 /* Debug */,
+				98F3409A1C73C84700E72D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98F340711C73C84700E72D14 /* FlashlightApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98F340721C73C84700E72D14 /* FlashlightApp.xcdatamodel */,
+			);
+			currentVersion = 98F340721C73C84700E72D14 /* FlashlightApp.xcdatamodel */;
+			path = FlashlightApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98F3405F1C73C84700E72D14 /* Project object */;
+}
