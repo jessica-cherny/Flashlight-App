@@ -7,8 +7,33 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+
+    @IBAction func toggleFlash(sender: AnyObject) {
+        let device = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+        if device.hasTorch {
+            do {
+                try device.lockForConfiguration()
+                if (device.torchMode == AVCaptureTorchMode.On) {
+                    device.torchMode = AVCaptureTorchMode.Off
+                } else {
+                    do {
+                        try device.setTorchModeOnWithLevel(1.0)
+                    } catch {
+                        print(error)
+                    }
+                }
+                device.unlockForConfiguration()
+            } catch {
+                print(error)
+            }
+        }
+
+    }
+   
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +44,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 
 }

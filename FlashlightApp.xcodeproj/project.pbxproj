@@ -15,6 +15,9 @@
 		98F340781C73C84700E72D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F340761C73C84700E72D14 /* LaunchScreen.storyboard */; };
 		98F340831C73C84700E72D14 /* FlashlightAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F340821C73C84700E72D14 /* FlashlightAppTests.swift */; };
 		98F3408E1C73C84700E72D14 /* FlashlightAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3408D1C73C84700E72D14 /* FlashlightAppUITests.swift */; };
+		98F3409C1C73C8F100E72D14 /* light-cone-314072_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F3409B1C73C8F100E72D14 /* light-cone-314072_960_720.jpg */; };
+		98F3409D1C73C8F100E72D14 /* light-cone-314072_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F3409B1C73C8F100E72D14 /* light-cone-314072_960_720.jpg */; };
+		98F3409E1C73C8F100E72D14 /* light-cone-314072_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F3409B1C73C8F100E72D14 /* light-cone-314072_960_720.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		98F340891C73C84700E72D14 /* FlashlightAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F3408D1C73C84700E72D14 /* FlashlightAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightAppUITests.swift; sourceTree = "<group>"; };
 		98F3408F1C73C84700E72D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F3409B1C73C8F100E72D14 /* light-cone-314072_960_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "light-cone-314072_960_720.jpg"; path = "../../light-cone-314072_960_720.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				98F3406C1C73C84700E72D14 /* ViewController.swift */,
 				98F3406E1C73C84700E72D14 /* Main.storyboard */,
 				98F340741C73C84700E72D14 /* Assets.xcassets */,
+				98F3409B1C73C8F100E72D14 /* light-cone-314072_960_720.jpg */,
 				98F340761C73C84700E72D14 /* LaunchScreen.storyboard */,
 				98F340791C73C84700E72D14 /* Info.plist */,
 				98F340711C73C84700E72D14 /* FlashlightApp.xcdatamodeld */,
@@ -234,6 +239,7 @@
 			files = (
 				98F340781C73C84700E72D14 /* LaunchScreen.storyboard in Resources */,
 				98F340751C73C84700E72D14 /* Assets.xcassets in Resources */,
+				98F3409C1C73C8F100E72D14 /* light-cone-314072_960_720.jpg in Resources */,
 				98F340701C73C84700E72D14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F3409D1C73C8F100E72D14 /* light-cone-314072_960_720.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F3409E1C73C8F100E72D14 /* light-cone-314072_960_720.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
